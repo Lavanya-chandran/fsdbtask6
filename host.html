@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>person detail</title>
+    </head>
+    <body>
+        <script>
+class Person {
+    constructor(name, age, gender, designation) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.designation = designation;
+    }
+    get pName() { return this.name; }
+    set pName(p) { this.name = p; }
+    get pAge() { return this.age; }
+    set pAge(p) { this.age = p; }
+    get pGender() { return this.gender; }
+    set pGender(p) { this.gender = p; }
+    get pDesignation() { return this.designation; }
+    set pDesignation(p) { this.designation = p; }
+}
+let person = new Person('lavanya', 19, 'Female', 'Developers');
+console.log(person);
+</script>
+</body>
+</html>
